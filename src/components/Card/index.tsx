@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { HandThumbsUp } from '@styled-icons/bootstrap/HandThumbsUp';
 
 const CardContainer = styled.div`
   width: 60vw;
@@ -16,10 +17,10 @@ const CardTop = styled.div<{ bg: string }>`
   height: 4.5em;
   display: flex;
   align-items: flex-end;
-  background: url(${({ bg }) => bg});
+  background: url(${({ bg }) => bg}) center / cover no-repeat;
 `;
 
-const CardBottom = styled.div<{ bg: string }>`
+const CardBottom = styled.div`
   padding: 0.4em;
   width: 100%;
   height: 4.5em;
@@ -27,7 +28,6 @@ const CardBottom = styled.div<{ bg: string }>`
   justify-content: space-between;
   align-items: flex-end;
   flex-wrap: wrap;
-  background: url(${({ bg }) => bg});
 `;
 
 const CardTitle = styled.h3`
@@ -52,8 +52,15 @@ const CardDetails = styled.div`
 const CardCategory = styled.div`
   width: 2em;
   height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #555;
   border-radius: 2em;
+
+  img {
+    width: 60%;
+  }
 `;
 
 const CardDistance = styled.p`
@@ -63,6 +70,7 @@ const CardDistance = styled.p`
 
 const CardValue = styled.p`
   margin: 0;
+  font-size: 1.5em;
 `;
 
 type CardProps = {
@@ -71,7 +79,7 @@ type CardProps = {
   title?: string;
   deal?: boolean;
   distance?: string;
-  category?: string;
+  category?: number;
 };
 
 const Card = ({ bg, company, title, category, distance, deal }: CardProps) => (
@@ -79,13 +87,24 @@ const Card = ({ bg, company, title, category, distance, deal }: CardProps) => (
     <CardTop bg={bg || 'https://placekitten.com/300/200'}>
       <CardCompany>{company || 'Company'}</CardCompany>
     </CardTop>
-    <CardBottom bg={''}>
+    <CardBottom>
       <CardTitle>{title || 'Donuts'}</CardTitle>
       <CardDetails>
-        <CardCategory />
+        <CardCategory>
+          <img src={`/images/category${category}.png`} alt="cat" />
+        </CardCategory>
         <CardDistance>{distance || '4.3'} km away</CardDistance>
       </CardDetails>
-      <CardValue>{deal ? '20% OFF' : '80%'}</CardValue>
+      <CardValue>
+        {deal ? (
+          '20% OFF'
+        ) : (
+          <>
+            <HandThumbsUp width="24px" />
+            80%
+          </>
+        )}
+      </CardValue>
     </CardBottom>
   </CardContainer>
 );

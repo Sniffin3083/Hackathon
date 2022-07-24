@@ -22,7 +22,7 @@ const MainTab = () => (
       <Categories />
     </Header>
     <Section title="Deals Nearby">
-      <Cards cardData={[0, 1]} />
+      <Cards cardData={[0, 1]} deal />
     </Section>
     <Section title="Most Popular">
       <Cards cardData={[0, 2]} />
