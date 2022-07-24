@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Card from '../Card';
+import CardSeeAll from '../CardSeeAll';
 
 const CardsContainer = styled.div`
   padding: 0 1em 1em;
@@ -24,6 +25,7 @@ const Cards = ({ cardData }: CardsProps) => {
       {cardData.map(() => {
         return <Card />;
       })}
+      <CardSeeAll />
     </CardsContainer>
   );
 };
