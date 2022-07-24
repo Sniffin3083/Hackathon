@@ -1,0 +1,149 @@
+[
+  {
+    "id": 0,
+    "name": "Donut Alley",
+    "title": "Specialty Donut Shop",
+    "distance": "4.3",
+    "category": 2
+  },
+  {
+    "id": 1,
+    "name": "Latte Lucca",
+    "title": "Cafe",
+    "distance": "1.0",
+    "category": 2
+  },
+  {
+    "id": 2,
+    "name": "Anne's Cafe",
+    "title": "Sandwiches and Drinks",
+    "distance": "4.7",
+    "category": 2
+  },
+  {
+    "id": 3,
+    "name": "Nimble Tailors",
+    "title": "Formal Wear",
+    "distance": "6.2",
+    "category": 1
+  },
+  {
+    "id": 4,
+    "name": "Fitness Calgary",
+    "title": "Gym",
+    "distance": "7.0",
+    "category": 3
+  },
+  {
+    "id": 5,
+    "name": "Beauty Salon",
+    "title": "Gym",
+    "distance": "7.3",
+    "category": 5
+  },
+  {
+    "id": 6,
+    "name": "Relaxing Massage",
+    "title": "Photo/Video",
+    "distance": "2.0",
+    "category": 5
+  },
+  {
+    "id": 7,
+    "name": "Minimalist",
+    "title": "Clothing Essentials",
+    "distance": "2.3",
+    "category": 1
+  },
+  {
+    "id": 8,
+    "name": "Outback",
+    "title": "Western Wear",
+    "distance": "2.7",
+    "category": 1
+  },
+  {
+    "id": 9,
+    "name": "Fresh",
+    "title": "Smoothies and Juice",
+    "distance": "7.3",
+    "category": 2
+  },
+  {
+    "id": 10,
+    "name": "Arnold's Workout",
+    "title": "3-month contract",
+    "distance": "4.3",
+    "category": 3
+  },
+  {
+    "id": 11,
+    "name": "Play 4fun",
+    "title": "Birthday Party",
+    "distance": "4.2",
+    "category": 3
+  },
+  {
+    "id": 12,
+    "name": "Photo-Of-U",
+    "title": "Photo/Video",
+    "distance": "4.3",
+    "category": 3
+  },
+  {
+    "id": 13,
+    "name": "Chasing Summer",
+    "title": "August 3",
+    "distance": "4.3",
+    "category": 4
+  },
+  {
+    "id": 14,
+    "name": "Folk Fest",
+    "title": "July 21-24",
+    "distance": "2.1",
+    "category": 4
+  },
+  {
+    "id": 15,
+    "name": "String Symphony",
+    "title": "August 10",
+    "distance": "4.0",
+    "category": 4
+  },
+  {
+    "id": 16,
+    "name": "Open Mic",
+    "title": "July 23",
+    "distance": "4.5",
+    "category": 4
+  },
+  {
+    "id": 17,
+    "name": "Calgary Blues",
+    "title": "August 15",
+    "distance": "2.2",
+    "category": 4
+  },
+  {
+    "id": 18,
+    "name": "Zen Spa",
+    "title": "Monthly Package",
+    "distance": "4.3",
+    "category": 5
+  },
+  {
+    "id": 19,
+    "name": "U-R-Beautiful",
+    "title": "Weddings",
+    "distance": "6.2",
+    "category": 5
+  },
+  {
+    "id": 20,
+    "name": "Men's Ride",
+    "title": "Hair + Beard",
+    "distance": "4.3",
+    "category": 5
+  }
+]

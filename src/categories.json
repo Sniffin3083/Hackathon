@@ -1,151 +1,147 @@
 {
-    "category": [
-        {
-            "categoryID": 1,
-            "categoryName": "Retail"
-        },
-        {
-            "categoryID": 2,
-            "categoryName": "Food"
-        },
-        {
-            "categoryID": 3,
-            "categoryName": "Services"
-        },
-        {
-            "categoryID": 4,
-            "categoryName": "Beauty"
-        },
-        {
-            "categoryID": 5,
-            "categoryName": "Hotel"
-        },
-        {
-            "categoryID": 6 ,
-            "categoryName": "Event"
-        }
-    ],
+  "category": [
+    {
+      "categoryID": 1,
+      "categoryName": "Retail"
+    },
+    {
+      "categoryID": 2,
+      "categoryName": "Food"
+    },
+    {
+      "categoryID": 3,
+      "categoryName": "Services"
+    },
+    {
+      "categoryID": 4,
+      "categoryName": "Event"
+    },
+    {
+      "categoryID": 5,
+      "categoryName": "Beauty"
+    }
+  ],
 
-    "subcategory": [
-        {
-            "subcategoryID": 0,
-            "subcategoryName": "Grocery",
-            "categoryID": 1
-        },
-        {
-            "subcategoryID": 1,
-            "subcategoryName": "Cloths",
-            "categoryID": 1
-        },
-        {
-            "subcategoryID": 2,
-            "subcategoryName": "Tobacco",
-            "categoryID": 1
-        },
-        {
-            "subcategoryID": 3,
-            "subcategoryName": "Cannabis",
-            "categoryID": 1
-        },
-        {
-            "subcategoryID": 4,
-            "subcategoryName": "Paw Shop",
-            "categoryID": 1
-        },
-        {
-            "subcategoryID": 5,
-            "subcategoryName": "Convenience Stores",
-            "categoryID": 1
-        },
-        {
-            "subcategoryID": 6 ,
-            "subcategoryName": "Special Stores",
-            "categoryID": 1
-        },
-        {
-            "subcategoryID": 7,
-            "subcategoryName": "Chinese",
-            "categoryID": 2
-        },
-        {
-            "subcategoryID": 8,
-            "subcategoryName": "Fast Food",
-            "categoryID": 2
-        },
-        {
-            "subcategoryID": 9,
-            "subcategoryName": "Thai",
-            "categoryID": 2
-        },
-        {
-            "subcategoryID": 10,
-            "subcategoryName": "Italian",
-            "categoryID": 2
-        },
-        {
-            "subcategoryID": 11,
-            "subcategoryName": "Japanese",
-            "categoryID": 2
-        },
-        {
-            "subcategoryID": 12 ,
-            "subcategoryName": "Mexican",
-            "categoryID": 2
-        },
-        {
-            "subcategoryID": 13,
-            "subcategoryName": "Coffee",
-            "categoryID": 2
-        },
-        {
-            "subcategoryID": 14,
-            "subcategoryName": "Smoothies",
-            "categoryID": 2
-        },
-        {
-            "subcategoryID": 15,
-            "subcategoryName": "Korean",
-            "categoryID": 2
-        },
-        {
-            "subcategoryID": 16,
-            "subcategoryName": "Liquor Store",
-            "categoryID": 2
-        },
-        {
-            "subcategoryID": 17,
-            "subcategoryName": "Others",
-            "categoryID": 2
-        },
-        {
-            "subcategoryID": 18 ,
-            "subcategoryName": "Special Stores",
-            "categoryID": 2
-        },
-        {
-            "subcategoryID": 19,
-            "subcategoryName": "Fitness",
-            "categoryID": 3
-        },
-        {
-            "subcategoryID": 20,
-            "subcategoryName": "Photo / Video",
-            "categoryID": 3
-        },
-        {
-            "subcategoryID": 21,
-            "subcategoryName": "Games / Arcade",
-            "categoryID": 3
-        },
-        {
-            "subcategoryID": 22,
-            "subcategoryName": "Cleaning",
-            "categoryID": 3
-        },
-        {
-            "subcategoryID": 23,
-            "subcategoryName": "Tattoo / Piercing",
-            "categoryID": 3
-        }
-    ]
+  "subcategory": [
+    {
+      "subcategoryID": 0,
+      "subcategoryName": "Grocery",
+      "categoryID": 1
+    },
+    {
+      "subcategoryID": 1,
+      "subcategoryName": "Cloths",
+      "categoryID": 1
+    },
+    {
+      "subcategoryID": 2,
+      "subcategoryName": "Tobacco",
+      "categoryID": 1
+    },
+    {
+      "subcategoryID": 3,
+      "subcategoryName": "Cannabis",
+      "categoryID": 1
+    },
+    {
+      "subcategoryID": 4,
+      "subcategoryName": "Paw Shop",
+      "categoryID": 1
+    },
+    {
+      "subcategoryID": 5,
+      "subcategoryName": "Convenience Stores",
+      "categoryID": 1
+    },
+    {
+      "subcategoryID": 6,
+      "subcategoryName": "Special Stores",
+      "categoryID": 1
+    },
+    {
+      "subcategoryID": 7,
+      "subcategoryName": "Chinese",
+      "categoryID": 2
+    },
+    {
+      "subcategoryID": 8,
+      "subcategoryName": "Fast Food",
+      "categoryID": 2
+    },
+    {
+      "subcategoryID": 9,
+      "subcategoryName": "Thai",
+      "categoryID": 2
+    },
+    {
+      "subcategoryID": 10,
+      "subcategoryName": "Italian",
+      "categoryID": 2
+    },
+    {
+      "subcategoryID": 11,
+      "subcategoryName": "Japanese",
+      "categoryID": 2
+    },
+    {
+      "subcategoryID": 12,
+      "subcategoryName": "Mexican",
+      "categoryID": 2
+    },
+    {
+      "subcategoryID": 13,
+      "subcategoryName": "Coffee",
+      "categoryID": 2
+    },
+    {
+      "subcategoryID": 14,
+      "subcategoryName": "Smoothies",
+      "categoryID": 2
+    },
+    {
+      "subcategoryID": 15,
+      "subcategoryName": "Korean",
+      "categoryID": 2
+    },
+    {
+      "subcategoryID": 16,
+      "subcategoryName": "Liquor Store",
+      "categoryID": 2
+    },
+    {
+      "subcategoryID": 17,
+      "subcategoryName": "Others",
+      "categoryID": 2
+    },
+    {
+      "subcategoryID": 18,
+      "subcategoryName": "Special Stores",
+      "categoryID": 2
+    },
+    {
+      "subcategoryID": 19,
+      "subcategoryName": "Fitness",
+      "categoryID": 3
+    },
+    {
+      "subcategoryID": 20,
+      "subcategoryName": "Photo / Video",
+      "categoryID": 3
+    },
+    {
+      "subcategoryID": 21,
+      "subcategoryName": "Games / Arcade",
+      "categoryID": 3
+    },
+    {
+      "subcategoryID": 22,
+      "subcategoryName": "Cleaning",
+      "categoryID": 3
+    },
+    {
+      "subcategoryID": 23,
+      "subcategoryName": "Tattoo / Piercing",
+      "categoryID": 3
+    }
+  ]
 }
